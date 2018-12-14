@@ -1,0 +1,5 @@
+{
+  "name": "my-artifactId",
+  "description": "my-description",
+  "addons": [ "heroku-postgresql" ]
+}
