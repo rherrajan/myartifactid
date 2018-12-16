@@ -13,7 +13,7 @@
 <script>
 	if ('serviceWorker' in navigator) {
 	   navigator.serviceWorker
-		  .register('service-worker.js')
+		  .register('/service-worker.js')
           .catch(function(err) {
 		  	console.log("couldn't register service worker: ", err)
 		  });
@@ -23,9 +23,6 @@
 <script src="/assets/js/core.js"></script>
 <script src="/assets/js/checkStatus.js"></script>
 
-<script>
-   'serviceWorker' in navigator && navigator.serviceWorker.register('/service-worker.js');
-</script>
 <script>
 	checkStatus();
 </script>
