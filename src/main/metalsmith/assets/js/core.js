@@ -5,7 +5,7 @@ function createBackendURL(path){
 	} else {
 		return location.protocol 
 		    + '//'+subdomain(location.hostname)
-		    + '.herokuapp.com'
+		    + '.herokuapp.com/'
 		    + path;
 	}
 
