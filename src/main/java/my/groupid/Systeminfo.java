@@ -31,5 +31,5 @@ public class Systeminfo {
 	public void setVaryResponseHeader(HttpServletResponse response) {
 	    response.setHeader("Access-Control-Allow-Origin", "*");	    
 	}   
-	
+		
 }
